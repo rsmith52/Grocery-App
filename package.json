@@ -1,6 +1,10 @@
 {
   "name": "grocery-app",
   "version": "0.0.0",
+  "description": "Grocery app for planning shopping",
+  "repository": "https://github.com/rsmith52/Grocery-App",
+  "author": "Ray Smith, Nate Hoffman",
+  "main": "server.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,7 +24,9 @@
     "@angular/platform-browser": "^6.0.2",
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
+    "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
+    "express": "^4.16.3",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
